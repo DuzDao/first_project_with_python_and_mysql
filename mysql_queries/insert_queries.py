@@ -1,0 +1,3 @@
+INSERT_ACCOUNTSCOUNTRY = 'insert into accountscountry (country_code, short_name, table_name, long_name, currency_unit) values("%s", "%s", "%s", "%s", "%s")'
+INSERT_ACCOUNTSDATA = 'insert into accountsdata (country_name, country_code, series_name, series_code, year_1995, year_2000, year_2005, year_2010, year_2014) values ("%s","%s","%s","%s","%s","%s","%s","%s","%s")'
+INSERT_ACCOUNTSERIES = 'insert into accountseries (series_code, topic, indicator_name, long_definition) values ("%s","%s","%s","%s")'

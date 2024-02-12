@@ -1,0 +1,9 @@
+mysql_info:
+  host: localhost
+  user: root
+  password: 5c101a6c112a
+  any_database: duzdao # you can change to name of any exist database
+  database: first_de_proj # name of db you want to create, this db will be dropped if it exists
+
+data:
+  path: dataset/
